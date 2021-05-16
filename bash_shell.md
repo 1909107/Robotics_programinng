@@ -24,9 +24,8 @@
 ##### Example: clear (Using this command will clear the main script page)
 ### -History 
 ##### This command allows us to see the history of all the commands we have been using previously.
-##### Example: $ history
-$ history
-    1  git config --global user.name 1909107
+##### Example: $ $ history
+   ``` 1  git config --global user.name 1909107
     2  git config --global user.email 1909107@upy.edu.mx
     3  git config --list
     4  git init
@@ -237,12 +236,12 @@ $ history
   209  git commit -m "Angel_y_Ivan"
   210  git status
   211  git push -u origin prueba
-  212  history
-
+   212  history 
+   ```
    ### -RMDIR 
    ##### This command allows us to delete an empty directory.
    ##### Example: rmdir Angel Lugo Saenz 
-   ### -RM
+  ### -RM
    ##### This command allows us to delete a file.
    ##### Example: rm Task_2.
    ### -RM -RF
