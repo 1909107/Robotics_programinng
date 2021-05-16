@@ -21,8 +21,7 @@
 ##### Example: cd...
 ### -CLEAR
 ##### This command allows us to clear the screen and leave it clean.
-##### Example: clear 
-### insertar imagenes aqui de antes y despues.
+##### Example: clear (Using this command will clear the main script page)
 ### -History 
 ##### This command allows us to see the history of all the commands we have been using previously.
 ##### Example: $ history
