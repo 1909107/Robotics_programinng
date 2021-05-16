@@ -34,7 +34,7 @@
     7  git push -u origin master
     8  git commit -m "fist commit"
     9  git push -u origin master
-   10  git checkout testing
+  ``` 10  git checkout testing
    11  git init
    12  cd ..
    13  mkdir test
@@ -63,6 +63,7 @@
    36  cd...
    37  clear
    38  history
+      ```
    ### -RMDIR 
    ##### This command allows us to delete an empty directory.
    ##### Example: rmdir Angel Lugo Saenz 
