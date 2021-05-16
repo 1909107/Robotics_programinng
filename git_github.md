@@ -89,4 +89,58 @@ This command allows us to shows the status of the modified files in the director
 ##### Example: git branch Angel Saenz.
 ### -Git checkout
 ##### This command allows us to switch to another branch and check it out into your working directory.
-##### Example: git check out --(name of the file)
+##### Example: git check out (name of the file)
+### -Git -M main
+##### This command allows us to return to our main branch.
+##### Example: git -m main 
+
+### -Git log
+##### This command allows us to show all commits in the current branch’s history.
+##### Example:  git log 
+```console
+$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Mon Mar 17 21:52:11 2008 -0700
+
+    Change version number
+
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Sat Mar 15 16:40:33 2008 -0700
+
+    Remove unnecessary test
+
+commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Sat Mar 15 10:31:28 2008 -0700
+
+    Initial commit
+```
+### -Git remote add origin 
+##### This command allows us to upload our file to the github platform.
+##### Example: git remote add origin https://github.com/1909107/Robotics_programinng.git
+### -Git add
+#####  This command allows us to command adds new or changed files in your working directory to the Git staging area
+##### Example: git add (name of te file).
+### -Git push -u origin main 
+##### This command allows us to send it instantly to the platform.
+##### Example: git push -u origin main 
+### -Git pull 
+##### This command allows us to we use this command to fetch and merge any commits from the tracking remote branch.
+##### Example: git pull (If you have no branches you will see the following).
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+### Delete a branch
+### -Git branch -d test 
+##### This command allows us  If we are done with the test branch and we want to delete it in the local repository, we will use the command git branch -d.
+#####  Example: git branch -d test 
+     
