@@ -275,4 +275,4 @@
 ##### -Once that you enter to nano editor:
 ##### EXIT: ctrl + x
 ##### MODIFY OR NOT?: Y/N
-##### PRESS ENTER
+##### PRESS ENTER.
